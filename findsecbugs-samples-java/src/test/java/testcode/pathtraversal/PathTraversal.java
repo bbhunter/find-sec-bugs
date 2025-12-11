@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.nio.file.Paths;
 
 public class PathTraversal {
     static final String safefinalString = "SAFE";

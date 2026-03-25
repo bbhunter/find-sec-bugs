@@ -41,6 +41,9 @@
                     <header>file:///${session.executionRootDirectory}/LGPL-3.0-header.txt</header>
                     <aggregate>true</aggregate>
                     <strictCheck>true</strictCheck>
+                    <mapping>
+                        <java>JAVADOC_STYLE</java> <!-- Forces /** ... */ instead of /* ... */ -->
+                    </mapping>
                     <includes>
                         <include>**/**.java</include>
                     </includes>
